@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Real para Bitcoin</title>
+
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Ícone (favicon) exibido na aba do navegador -->
+    <link rel="icon" type="image/png" href="/frontend/public/btc.png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Conversor de Real para Bitcoin</h1>
+
+      <!-- Exibe o preço atual do Bitcoin em tempo real -->
+      <p>Preço atual do Bitcoin: <span id="btc-price">Carregando...</span></p>
+
+      <!-- Campo de entrada para inserir um valor em Reais -->
+      <input type="number" id="real-value" placeholder="Digite o valor em R$" />
+
+      <!-- Botão que aciona a conversão ao ser clicado -->
+      <button onclick="converter()">Converter</button>
+
+      <!-- Exibe o resultado da conversão para Bitcoin -->
+      <h2>Valor em Bitcoin: <span id="btc-result">0 BTC</span></h2>
+    </div>
+
+    <!-- Importa o script JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
