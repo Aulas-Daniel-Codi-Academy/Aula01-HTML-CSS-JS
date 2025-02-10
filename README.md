@@ -1,50 +1,71 @@
-# 📋 Lista de Tarefas com Timer ⏳
+# 💰 Conversor de Real para Bitcoin
 
-Este é um projeto de **Lista de Tarefas (To-Do List)** desenvolvido com **HTML, CSS e JavaScript**, que inclui um **timer automático de 50 minutos** para cada tarefa. Além disso, as tarefas são salvas no **localStorage**, permitindo que sejam preservadas mesmo após o recarregamento da página.
+Este é um projeto que permite converter valores de **Reais (BRL) para Bitcoin (BTC)** de forma dinâmica e atualizada.
 
 ---
 
 ## 📌 Funcionalidades
 
-✔ Adicionar tarefas à lista.  
-✔ Timer regressivo de **50 minutos** por tarefa.  
-✔ Botão de **pausar e retomar** o timer.  
-✔ **Remoção automática** da tarefa ao final do tempo.  
-✔ Botão para **excluir tarefas manualmente**.  
-✔ **Tarefas salvas no `localStorage`**, mantendo os dados após o recarregamento.  
+✅ Conversão de valores de **R$ (Real) para BTC (Bitcoin)**.  
+✅ Atualização automática do **preço do Bitcoin** via API.  
+✅ Interface simples, responsiva e intuitiva.  
+✅ Uso da **API da CoinDesk** para obter a cotação do Bitcoin em tempo real.
 
 ---
 
-## 📌 Aprendizados
+## 📚 Aprendizados
 
-✔ Estruturação de páginas com **HTML5**.  
-✔ Estilização e responsividade com **CSS3**.  
-✔ Manipulação do DOM com **JavaScript**.  
-✔ Uso de **setInterval()** para timers dinâmicos.  
-✔ Armazenamento de dados no **localStorage**.  
+- ✅ HTML básico
+- ✅ CSS básico
+- ✅ JavaScript básico
+- ✅ Como consumir uma API externa
+
+---
+
+## 📚 Dever de Casa
+
+**Consumir a API do valor do Real dinâmico**: e substituir pela simples multiplicação do valor do dolar \* 6 para chegar no real, ou pesquisar uma API que seja funcional e entregue a conversão direta de BTC para real.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** → Estrutura da página
+- **CSS3** → Estilização da interface
+- **JavaScript (ES6+)** → Lógica da conversão e requisição da API
+- **Fetch API** → Comunicação com a API da CoinDesk
+
+---
+
+## 📂 Estrutura do Projeto
+
+📂 Aula01-HTML-CSS-JS  
+ ┣ 📜 /frontend → Pasta com todo o frontend do projeto  
+ ┣ 📜 /public → Pasta com imagens públicas  
+ ┣ 📜 index.html → Estrutura da página  
+ ┣ 📜 styles.css → Estilos visuais  
+ ┣ 📜 scripts.js → Lógica da conversão  
+ ┗ 📜 README.md → Documentação do projeto
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
 ### 1️⃣ Clone este repositório
+
 ```sh
-git clone https://github.com/seu-usuario/lista-de-tarefas-html-css-js.git
+git clone https://github.com/seu-usuario/conversor-bitcoin.git
 ```
+
 ### 2️⃣ Acesse a pasta do projeto
+
 ```sh
-cd lista-de-tarefas-html-css-js
+cd Aula01-HTML-CSS-JS
 ```
+
 ### 3️⃣ Abra o arquivo `index.html` no navegador
-Você pode simplesmente **clicar duas vezes** no arquivo ou usar um servidor local.
+
+**Instale a extensão**: Live Server
+**Botão direito no arquivo HTML**: "Open with live server"
 
 ---
-
-## 📜 Licença
-
-Este projeto é de código aberto e pode ser utilizado livremente. 🚀  
-Se gostou, dê uma ⭐ no repositório e contribua com melhorias!
-
----
-
-Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario) 🚀
